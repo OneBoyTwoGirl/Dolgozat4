@@ -23,7 +23,7 @@ public class Console {
         ArrayList<Employee> employees = this.restapi.getEmployees();
         for
         (Employee employee: employees) {
-            System.out.printf("%10.10s %12s %6d %,6.2f\n",
+            System.out.printf("%s %10s %12s %10s\n", "Qty", "Desc.", "Unit \$", "Total");
              employee.city,
              employee.address,
              employee.size,
